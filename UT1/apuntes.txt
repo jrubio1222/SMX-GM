@@ -1,0 +1,28 @@
+Que hace cada cosa
+
+//comentario - añadir comentario
+
+console.log("texto") - mostrar texto en pantalla
+
+variables
+
+let [variable]; - crear una variable
+[variable] = "texto" - añadir contenido a la variable
+var (fa el mateix que let)
+
+alert(texto) - (Solo funciona en el navegador) - hace lo mismo que el "console.log"
+
+Constantes
+
+const [nombre constante] = 'valor de la constante'
+
+Numero
+
+let n = 'valor numerico'
+
+//cadena para que funcione el prompt-sync
+const prompt = require('prompt-sync')();
+
+//pedir informacion al ejecutar
+let edad = prompt ('Cuántos años tienes?'); 100;
+console.log(Tienes $(age) años);
