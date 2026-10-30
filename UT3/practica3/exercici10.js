@@ -11,3 +11,6 @@ let temperatura = prompt("Possam una temperatura (ºC): ");
         console.log("Fa calor")
     }
 };
+
+// console.log((a = prompt("temp?")) < 10 ? "fred" : a < 25 ? "mid" : "calor");
+// (Fet per Lluís)
