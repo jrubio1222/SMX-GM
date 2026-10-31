@@ -1,15 +1,9 @@
 const prompt = require('prompt-sync')();
 
-let numero = prompt("Passa'm un número del 1-4: ");
+let numero = prompt("Passa'm un número: ");
 
-if (numero == 1) {
-    console.log("Talla XS");
-} if (numero == 2) {
-    console.log("Talla S");
-} if (numero == 3) {
-    console.log("Talla M");
-} if (numero == 4) {
-    console.log("Talla L");
+if (numero == 7) {
+    console.log("Has endevinat el numero!");
 } else {
-    console.log("Talla no disponible");
+    console.log("No has encertat. Torna-ho a provar!");
 }
