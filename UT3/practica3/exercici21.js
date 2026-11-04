@@ -24,4 +24,7 @@ switch (num) {
     case 7:
         console.log("Diumenge");
         break;
+    default:
+        console.log("Dia no vàlid");
+        break;
 }
