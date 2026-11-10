@@ -60,4 +60,4 @@ if (clase === "A" && o1 == 10) {
 } else {
     tipus = "Pública";
 }
-console.log(`${tipus}`);
+console.log(`La IP és: ${tipus}`);
