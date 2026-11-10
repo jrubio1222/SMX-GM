@@ -38,10 +38,13 @@ if (o1 >= 1 && o1 <= 126) {
 switch (clase) {
     case "A":
         console.log("Màscara per defecte: 255.255.255.0");
+        break;
     case "B":
         console.log("Màscara per defecte: 255.255.0.0");
+        break;
     case "C":
         console.log("Màscara per defecte: 255.255.0.0");
+        break;
     default:
         console.log("Màscara per defecte: No té (adreca especial)");
         break;
@@ -55,7 +58,7 @@ if (clase === "A" && o1 == 10) {
     tipus = "Privada";
 } else {
     tipus = "Pública";
-} if (clase === "C" && o1 == 192 && o2 == 168 && o2 <= 0 && o3 <= 255) {
+} if (clase === "C" && o1 == 192 && o2 == 168) {
     tipus = "Privada";
 } else {
     tipus = "Pública";
